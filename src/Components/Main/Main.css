@@ -1,0 +1,30 @@
+main {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(20, 1fr);
+    gap: 0.5rem;
+  }
+  
+  @media (min-width: 500px) {
+    main {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+    }
+  }
+  
+  @media (min-width: 700px) {
+    main {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+    }
+  }
+  
+  @media (min-width: 900px) {
+    main {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+    }
+  }
